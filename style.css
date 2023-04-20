@@ -1,0 +1,85 @@
+* {
+    background-color: black ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Imperio {
+    background-color:darkred;
+    border-radius: 5%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#vader {
+    font-size: x-large;
+}
+
+#luke {
+    font-style: italic;
+}
+
+.Rebeldes {
+    background-color: blue;
+    border-radius: 5%;
+}
+
+.dark {
+    border: 0;
+    border-top: 5px solid blanchedalmond;
+    height: 10px;
+    width: 50%;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    max-width: 1500px;
+}
+
+.card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgb(255, 255, 255);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px blanchedalmond;
+    transform: translateY(-3%);
+}
+.card img{
+    width: 100%;
+    height: 210px;
+}
+.card .contenido{
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+}
+.card .contenido li{
+    line-height: 1.5;
+    color: #000000;
+}
+.card .contenido h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.card .contenido a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #2fb4cc;
+    border: 1px solid #2fb4cc;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+.card .contenido a:hover{
+    background: #2fb4cc;
+    color: #fff;
+}
